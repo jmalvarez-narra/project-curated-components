@@ -1,0 +1,16 @@
+/** GLOBAL STYLES **/
+
+@font-face {
+  font-family: "Merriweather-Bold";
+  src: url(../fonts/Merriweather/Merriweather-Bold.otf);
+}
+
+@font-face {
+  font-family: "SweetSansPro-Heavy";
+  src: url(../fonts/SweetSansPro/SweetSansPro-Heavy.ttf);
+}
+
+@font-face {
+  font-family: "SweetSansPro-Regular";
+  src: url(../fonts/SweetSansPro/SweetSansPro-Regular.ttf);
+}
