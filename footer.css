@@ -1,0 +1,13 @@
+.footer {
+  background-color: #e7e9e8;
+  letter-spacing: 1px;
+}
+
+.footer .nav-item {
+  text-transform: uppercase;
+}
+
+.footer .divider {
+  border-top: 2px solid #2e2f2e;
+  opacity: 1;
+}
