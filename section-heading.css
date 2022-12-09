@@ -1,0 +1,35 @@
+.section-heading > .title {
+  position: relative;
+  font-size: 30px;
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.section-heading > .title:before,
+.section-heading > .title:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 1px;
+  content: '';
+  background-color: #bfc1be;
+}
+
+.section-heading > .title:before {
+  margin-left: -52%;
+  text-align: right;
+}
+
+.section-heading > .title::after {
+  margin-left: 2%;
+}
+
+.section-heading > .subtitle {
+  text-align: center;
+  color: #8a8f8f;
+  font-size: 1em;
+}
