@@ -14,3 +14,7 @@
   font-family: "SweetSansPro-Regular";
   src: url(../fonts/SweetSansPro/SweetSansPro-Regular.ttf);
 }
+
+* {
+  font-family: "SweetSansPro-Regular";
+}
