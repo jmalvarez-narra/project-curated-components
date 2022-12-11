@@ -2,7 +2,12 @@
 
 @font-face {
   font-family: "Merriweather-Bold";
-  src: url(../fonts/Merriweather/Merriweather-Bold.otf);
+  src: url(../fonts/Merriweather/Merriweather-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Merriweather-Regular";
+  src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
 }
 
 @font-face {
@@ -15,6 +20,46 @@
   src: url(../fonts/SweetSansPro/SweetSansPro-Regular.ttf);
 }
 
-* {
+body {
   font-family: "SweetSansPro-Regular";
+}
+
+.btn {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #000;
+  --bs-btn-border-color: #000;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #4a4a4a;
+  --bs-btn-hover-border-color: #4a4a4a;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #4a4a4a;
+  --bs-btn-active-border-color: #4a4a4a;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #4a4a4a;
+  --bs-btn-disabled-border-color: #4a4a4a;
+}
+
+.btn-secondary {
+  --bs-btn-color: #333;
+  --bs-btn-bg: #fff;
+  --bs-btn-border-color: #fff;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #fafafa;
+  --bs-btn-hover-border-color: #fafafa;
+  --bs-btn-focus-shadow-rgb: 130,138,145;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #fafafa;
+  --bs-btn-active-border-color: #fafafa;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #333;
+  --bs-btn-disabled-bg: #efefef;
+  --bs-btn-disabled-border-color: #efefef;
 }

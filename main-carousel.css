@@ -1,0 +1,45 @@
+.carousel-caption {
+  max-width: 25rem;
+  width: fit-content;
+  background: #ffffffb3;
+  border-radius: 5px;
+  color: #333;
+  padding: 1.25rem 1.75rem;
+  top: 45%;
+  bottom: auto;
+  text-align: initial;
+  font-size: 1em;
+  transform: translateY(-40%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1;
+}
+
+.car-info > span {
+  display: block;
+  line-height: 1;
+}
+
+.car-info > .year {
+  font-family: "SweetSansPro-Heavy";
+}
+.car-info > .make {
+  font-family: "SweetSansPro-Heavy";
+}
+
+.carousel-caption-divider {
+  opacity: 1;
+  border-width: thick;
+  width: 3rem;
+}
+
+.car-features {
+  font-family: "Merriweather-Regular";
+  font-size: 1em;
+}
+
+.car-features > li {
+  margin-bottom: 0.3rem;
+}
