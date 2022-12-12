@@ -1,0 +1,11 @@
+.card-img-fit {
+  object-fit: cover;
+  height: 30vh;
+  max-height: 30vh;
+}
+
+@media (max-width: 767px) {
+  .card-img-fit {
+    height: auto;
+  } 
+}
