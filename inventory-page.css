@@ -1,0 +1,58 @@
+.inventory-card .card-media {
+  position: relative;
+}
+
+.inventory-card .card-media .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(57, 57, 57, 0.502);
+  top: 0;
+  left: 0;
+  transition: all 0.2s 0.1s ease-in-out;
+  opacity: 0;
+  color: white;
+}
+
+.inventory-card .card-media:hover .overlay {
+  opacity: 1;
+}
+
+.inventory-card .card-media .overlay .sold{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.75rem;
+}
+
+.inventory-card .card-media .overlay .details {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.inventory-card .card-media .overlay .details a {
+  color: #fff;
+  text-decoration: none;
+  text-align: right;
+}
+
+.more-cta {
+  width: auto;
+  background-image: url(assets/images/chevron-right.png);
+  background-repeat: no-repeat;
+  background-position: right -23% bottom 50%;
+  background-size: 3rem;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.more-cta:hover {
+  text-decoration: underline;
+  color: #333;
+}
