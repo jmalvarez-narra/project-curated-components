@@ -20,6 +20,18 @@
   src: url(../fonts/SweetSansPro/SweetSansPro-Regular.ttf);
 }
 
+@font-face {
+  font-family: "RockSalt";
+  src: url("../fonts/RockSalt-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ComforterBrush";
+  src: url("../fonts/ComforterBrush-Regular.ttf");
+  font-weight: 400;
+}
+
 body {
   font-family: "SweetSansPro-Regular";
 }
@@ -62,4 +74,16 @@ body {
   --bs-btn-disabled-color: #333;
   --bs-btn-disabled-bg: #efefef;
   --bs-btn-disabled-border-color: #efefef;
+}
+
+.handwritten {
+  font-family: "ComforterBrush" !important;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.grafiti {
+  font-family: "RockSalt" !important;
+  font-size: 1.2rem !important;
+  margin-bottom: 0.5rem;
 }
